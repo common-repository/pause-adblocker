@@ -1,0 +1,218 @@
+/***********************************
+	Common styles
+***********************************/
+
+.pause-onehalf {
+	width: 46%;
+	margin: 0 4% 1em 0;
+	float: left;
+}
+.pause-onethird {
+	width: 31%;
+	margin: 0 2% 1em 0;
+	float: left;
+}
+.pause-clear {
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+.pause-hidden { display: none; }
+
+
+/***********************************
+	Nav tabs
+***********************************/
+
+#pause-tabs { }
+#pause-tabs span { cursor: pointer; }
+#pause-tabs .nav-tab-active,
+#pause-tabs span:hover { color: #464646; }
+#pause-tabs .nav-tab-active { cursor: default; }
+h3.pause-no-js-tab {
+	margin: 1em 0;
+	padding: 1em;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	background: #f2f2f2;
+	color: #555;
+}
+
+
+/***********************************
+	Panes
+***********************************/
+
+.pause-pane {
+	margin: 10px 0;
+}
+.pause-pane .widefat {
+	max-width: 600px;
+}
+.js .pause-pane {
+	display: none;
+	border: none;
+}
+
+
+/***********************************
+	Notices
+***********************************/
+
+#pause-settings div.pause-notice { margin: 1.5em 0; }
+
+
+/***********************************
+	Inline menus
+***********************************/
+
+.pause-inline-menu {
+	margin: 1.5em 0;
+	line-height: 1.5em;
+}
+.pause-inline-menu a {
+	display: inline-block;
+	padding: 0 0.7em;
+	border-right: 1px dotted #ccc;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+.pause-inline-menu a:hover {
+	text-decoration: underline;
+}
+.pause-inline-menu a:first-child {
+	padding-left: 0;
+}
+.pause-inline-menu a:last-child {
+	display: inline-block;
+	padding-right: 0;
+	border-right: none;
+}
+
+
+/***********************************
+	Common fields
+***********************************/
+
+#pause-settings .form-table td,
+#pause-settings .form-table th { padding-bottom: 5px; }
+
+#pause-settings .description {
+	display: block;
+	margin-top: 5px;
+}
+
+#pause-settings textarea { min-width: 200px; }
+
+.pause-checkbox-group label {
+	display: inline-block;
+	margin: 0 0 5px 0;
+}
+.pause-title-field {
+	margin: 0 0 0.5em;
+	padding: 0 0 0.5em;
+	border-bottom: 1px solid #ddd;
+	color: #999;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+
+/***********************************
+	Color picker
+***********************************/
+
+.pause-color-picker { position: relative; }
+.pause-color-picker-wheel {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 9999;
+	display: none;
+	border: 1px solid #aaa;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0 2px 5px #ccc;
+	-moz-box-shadow: 0 2px 5px #ccc;
+	box-shadow: 0 2px 5px #ccc;
+}
+.pause-color-picker .button img {
+	margin: -3px 4px 0 -4px;
+	vertical-align: middle;
+}
+
+
+/***********************************
+	Media manager
+***********************************/
+
+.pause-media { }
+.pause-media .button img {
+	margin: -3px 4px 0 -4px;
+	vertical-align: middle;
+}
+
+
+/***********************************
+	Image radio
+***********************************/
+
+.pause-image-radio { }
+.pause-image-radio a {
+	position: relative;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	padding: 4px;
+	background: #f0f0f0;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	outline: none;
+}
+.pause-image-radio a:hover {
+	background: #eee;
+}
+.pause-image-radio a.pause-image-radio-selected {
+	background: #2685AF;
+}
+.pause-image-radio img {
+	max-width: 400px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #fff;
+	display: block;
+}
+.pause-image-radio a.pause-image-radio-selected img {
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+}
+
+
+/***********************************
+	Actions bar
+***********************************/
+
+.pause-actions-bar {
+	margin-top: 20px;
+	padding: 10px;
+	border-top: 1px solid #eee;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	background: #f5f5f5;
+}
+.pause-spin,
+.pause-success-tip {
+	display: none;
+	margin-left: 10px;
+}
+.pause-success-tip { color: #0b0; }
+.pause-spin img,
+.pause-success-tip img { margin: 0 5px -3px 0; }

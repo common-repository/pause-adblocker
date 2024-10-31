@@ -1,0 +1,171 @@
+/***********************************
+	Pause Adbloker
+***********************************/
+#clickme, .popup-1.modal-bg .modal-box, .popup-1.modal-bg .modal-box button {
+  border-radius: 2px;
+}
+@media screen and (min-width: 480px) {
+  .hlf,
+  .trd,
+  .fth {
+    float: left;
+    margin-right: 1.5%;
+  }
+  .hlf:last-child,
+  .trd:last-child,
+  .fth:last-child {
+    margin: 0;
+    float: right;
+  }
+
+  .hlf {
+    width: 49.25%;
+  }
+
+  .trd {
+    width: 32.3%;
+  }
+
+  .fth {
+    width: 23.8%;
+  }
+}
+/* Box */
+.box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3%;
+  margin: 0 auto;
+  margin-bottom: 1.6%;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+@media screen and (min-width: 480px) {
+  .box {
+    padding: 2%;
+    margin-bottom: 2%;
+    max-width: 500px;
+  }
+}
+@media screen and (min-width: 765px) {
+  .box {
+    padding: 1.5%;
+    margin-bottom: 1.5%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .box {
+    padding: 1.25%;
+    margin-bottom: 1.25%;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .box {
+    padding: 1%;
+    margin-bottom: 1%;
+  }
+}
+
+/*-----------------------------------//
+//  PEN STYLES
+//-----------------------------------*/
+.center {
+  margin: auto;
+}
+
+#clickme {
+  display: block;
+  margin: 10% auto;
+  background: #E54B4B;
+  color: #F0F1FA;
+  border-color: transparent;
+  font-size: 1.2em;
+}
+#clickme:hover {
+  background: #646C82;
+}
+
+.popup-1.modal-bg {
+  display: none;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 900;
+  /*position*/
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.popup-1.modal-bg .modal-container {
+  height: 100%;
+  margin: auto;
+  /*position*/
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.popup-1.modal-bg #close {
+  display: block;
+  padding: 0;
+  margin-top: -10px;
+  margin-right: -10px;
+  float: right;
+}
+.popup-1.modal-bg #close.close-btn {
+  color: #B0B0BA;
+}
+.popup-1.modal-bg #close.close-btn:hover {
+  color: #F0F1FA;
+  background: #F02D3A;
+  border-color: transparent;
+}
+.popup-1.modal-bg .modal-box {
+  transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  padding: 20px;
+  margin-top: 10%;
+  z-index: 999;
+}
+.popup-1.modal-bg .modal-box h1 {
+	font-size: 2em;
+	margin: 0;
+	padding: 0px;
+	clear: both;
+	font-weight: 700;
+}
+
+.popup-1.modal-bg .modal-box p{
+    color: #fff;
+    position: relative;
+    padding: 15px 40px 20px;
+    font-weight: 300;
+    font-size: 1.15em;
+    border-radius: 3px;
+    margin: 0 auto;
+	text-align: center;
+	}
+.popup-1.modal-bg .modal-box .description {
+    text-align: center;
+    margin: -6px -24px 0;
+    padding: 0.4em;
+    border-radius: 0 0 3px 3px;
+}
+#adblocktitle{
+	color: #666;
+    position: relative;
+    margin: -20px -24px 0;
+    padding: 0.4em;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 300;
+    border-radius: 3px 3px 0 0;
+	}
+
+.popup-1.modal-bg .modal-box .refresh {
+    background: #ffffff;
+    color: #666666;
+}
